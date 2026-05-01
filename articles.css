@@ -1,0 +1,69 @@
+#more {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   padding-bottom: 120px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  background-color: #f7f7f7;
+  margin: 1em;
+  padding: 1em;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 10px;
+  bottom: 100px;
+}
+
+.comments {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#comment-text {
+  width: 100%;
+  height: 100px;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  font: sans-serif;
+}
+
+#submit-comment {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#comments-container {
+  margin-top: 1em;
+}
+
+.comment {
+  background-color: #fff;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+}

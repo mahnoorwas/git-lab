@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+       <nav class="navbar navbar-expand-xxl bg-body-tertiary position-sticky top-0 z-3">
+        <div class="container">
+            <div class="w-75">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/Logo/Logo.jpg" alt="Logo" width="40px">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu"
+                aria-controls="Menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="font-size:x-large;font-weight: bold;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html" style="font-size:x-large;font-weight: bold;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="books.html" style="font-size:x-large;font-weight: bold;">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="articles.html" style="font-size:x-large;font-weight: bold;">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html" style="font-size:x-large;font-weight: bold;">Awards</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section class="border border-2 border-white rounded-3 p-3 mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-md-0 mb-3">
+                        <h2 class="h2">Abdus Salam</h2>
+                        <h5 class="h5">(1926—1996) theoretical physicist</h5>
+                        <p class="fs-6">
+                            Abdus Salam was an extraordinary personality. His intelligence and
+                            generosity impressed all those who approached him. He was also given
+                            unprecedented respect by scientific community of the whole world. He was
+                            born on January 29, 1926 in Jhang, Pakistan. At the age of 14, he
+                            secured the highest marks ever recorded in matriculation examination of
+                            the Punjab University. From that moment, Abdus Salam was a public figure
+                        </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SubPage_1">Learn
+                            More</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid rounded-4" src="assets/Person/portrait.jpg" alt="Person 1">
+                    </div>
+                </div>
+            </section>
+            <section class="border border-2 border-white rounded-3 p-3 mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-md-0 mb-3">
+                        <img class="img-fluid rounded-4" src="assets/Person/portrait2.gif" alt="Person 2">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="h2">Education</h2>
+                        <p class="fs-6">
+                            Scholarships were to relieve his family of the cost of his further education, first at
+                            Government
+                            College, Lahore and later at Cambridge University, England. Abdus Salam did his Ph. D. in
+                            Theoretical Physics at Cambridge in 1951. He returned to Pakistan to teach mathematics at
+                            Government College, Lahore and became head of the department in 1952. Due to non-
+                            conducive scientific environment in Pakistan, he had to make a choice between Pakistan and
+                            physics. He left Pakistan for good physics and became a lecturer at Cambridge
+                        </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SubPage_2">Learn
+                            More</button>
+                    </div>
+                </div>
+            </section>
+            <section class="border border-2 border-white rounded-3 p-3 mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-md-0 mb-3">
+                        <h2 class="h2">Career And Vision</h2>
+                        <p class="fs-6">
+                            Scientific knowledge is a shared heritage of all mankind; East and west, South and North
+                            have
+                            all equally participated in its creation in the past, and, we hope, they will in the future.
+                            This joint
+                            endeavour in sciences is one of the unifying forces among the diverse people on this globe."
+                            Abdus Salam
+                            Salam also did much for the promotion and organization of scientific community in developing
+                            countries. He founded International Centre for Theoretical Physics, ICTP, at Trieste, Italy
+                            in
+                            1964.
+                        </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SubPage_3">Learn
+                            More</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid rounded-4" src="assets/Person/portrait3.jpg" alt="Person 3">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="SubPage_1" tabindex="-1" aria-labelledby="SubPage_1_Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="SubPage_1_Label">Abdus Salam</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+
+                        <img class="person-img mb-3" src="assets/Person/portrait.jpg" alt="portrait">
+
+                        <p><strong>Abdus Salam</strong><br>
+                            (1926—1996) theoretical physicist</p>
+
+                        <p>He established International Centre for Theoretical Physics (ICTP) at Trieste, Italy, in
+                            1964.
+                            Later, the ICTP was renamed as the Abdus Salam-ICTP.</p>
+
+                        <p>Abdus Salam was an extraordinary personality. His intelligence and generosity impressed all
+                            those
+                            who approached him. He was also given unprecedented respect by scientific community of the
+                            whole
+                            world. He was born on January 29, 1926 in Jhang, Pakistan. At the age of 14, he secured the
+                            highest marks ever recorded in matriculation examination of the Punjab University. From that
+                            moment, Abdus Salam was a public figure.</p>
+
+                        <p>Scholarships were to relieve his family of the cost of his further education, first at
+                            Government
+                            College, Lahore and later at Cambridge University, England. Abdus Salam did his Ph. D. in
+                            Theoretical Physics at Cambridge in 1951. He returned to Pakistan to teach mathematics at
+                            Government College, Lahore and became head of the department in 1952. Due to non-conducive
+                            scientific environment in Pakistan, he had to make a choice between Pakistan and Physics. He
+                            left Pakistan for good physics and became a lecturer at Cambridge.</p>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="SubPage_2" tabindex="-2" aria-labelledby="SubPage_2_Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="SubPage_2_Label">Education</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+
+                        <img class="person-img mb-3" src="assets/Person/portrait2.gif" alt="portrait">
+
+                        <p><strong>Education</strong><br></p>
+
+                        <p><strong>More Part 2</strong></p>
+                        <p>In September 1956, Abdus Salam was returning to Cambridge from a physics meeting in Seattle,
+                            US.
+                            Instead of taking scheduled flight, Abdus Salam boarded a US Air Force plane. US Air Force
+                            generously supported scientific research in European universities, and this support enabled
+                            physicists wishing to attend physics meetings in US. Flights were frequently full of
+                            families
+                            with noisy children but European physicists appreciated this generous travel opportunity.
+                            The
+                            overnight travel of Salam was uncomfortable and he could not sleep that night. Salam started
+                            to
+                            think over the ideas about the possibility of parity violation in weak force given by Lee
+                            and
+                            Yang in the above mentioned physics conference to solve a puzzle of physics of that time. In
+                            the
+                            light of ideas of Lee and Yang, Salam found a solution to the puzzle in that uncomfortable
+                            night. He discussed his ideas with Rudolf Peierls, who had examined him in his Ph. D.
+                            examination, and Enrico Fermi, a well-known scientist. But both rejected Salam’s ideas, so
+                            he
+                            did not publish his work. A few months later, Salam’s ideas were experimentally proved by
+                            Wu,
+                            Lederman and Telegdi. Then Fermi apologized by writing a letter to Salam in January 1957.
+                            Salam
+                            was really pushed a little back by the discouraging attitude of Peierls and Fermi. In the
+                            same
+                            year, Salam became professor of Theoretical Physics at Imperial College, London.</p>
+
+                        <p>Salam continued his work on weak force and gave a unified model of electromagnetic and weak
+                            interactions in 1968. Salam invented the word “electroweak” for the unified electromagnetic
+                            and
+                            weak force. Weinberg, working independently, also gave a similar model. Work of Salam and
+                            Weinberg was based on initial work of Glashow. This is why the model is called
+                            Glashow-Weinberg-Salam model. After experimental proof of predictions of the model, Glashow,
+                            Weinberg and Salam were awarded 1979 Physics Nobel Prize.</p>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="SubPage_3" tabindex="-3" aria-labelledby="SubPage_3_Label" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5" id="SubPage_3_Label">Career And Vision</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+
+                        <img class="person-img mb-3" src="assets/Person/portrait3.jpg" alt="portrait">
+
+                        <p><strong>Career And Vision</strong><br></p>
+
+                        <p><strong>Part 3</strong></p>
+                        <p>Scientific knowledge is a shared heritage of all mankind; East and west, South and North have
+                            all
+                            equally participated in its creation in the past, and, we hope, they will in the future.
+                            This
+                            joint endeavour in sciences is one of the unifying forces among the diverse people on this
+                            globe." -- Abdus Salam</p>
+
+                        <p>Salam also did much for the promotion and organization of scientific community in developing
+                            countries. He founded International Centre for Theoretical Physics, ICTP, at Trieste, Italy
+                            in
+                            1964 (He wanted to setup this centre in Pakistan).</p>
+
+                        <p><strong>Part 3 More:</strong></p>
+                        <p><strong>Aims of ICTP are:</strong></p>
+                        <ul>
+                            <li>To help the growth of advanced studies and research in physical and mathematical
+                                sciences, especially in developing countries.</li>
+                            <li>To provide an international forum for scientific contacts between scientists from all
+                                countries.</li>
+                            <li>To provide facilities to conduct original research to its visitors, associates, and
+                                fellows.</li>
+                        </ul>
+                        <p>
+                            <a href="https://www.researchgate.net/publication/337928598_Dr_Abdus_Salam_-A_Brief_Story"
+                                target="_blank">
+                                Read more about Dr. Abdus Salam
+                            </a>
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+    <div class="container-fluid bg-body-tertiary rounded-top-3">
+        <section class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">&copy; 2025 Mahnoor, Rabia & Zobia | All content on this biography website is protected under copyright law. Unauthorized use or duplication without written permission is prohibited.</p> <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                aria-label="Bootstrap"> <img src="assets/Logo/Logo.jpg" alt="Logo" width="40px"> </a>
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary" style="font-size:large;font-weight: bold;">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary" style="font-size:large;font-weight: bold;">About</a></li>
+                <li class="nav-item"><a href="books.html" class="nav-link px-2 text-body-secondary" style="font-size:large;font-weight: bold;">Books</a></li>
+                <li class="nav-item"><a href="articles.html" class="nav-link px-2 text-body-secondary" style="font-size:large;font-weight: bold;">Articles</a>
+                </li>
+                <li class="nav-item"><a href="awards.html" class="nav-link px-2 text-body-secondary" style="font-size:large;font-weight: bold;">Awards</a></li>
+            </ul>
+        </section>
+    </div>
+
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
